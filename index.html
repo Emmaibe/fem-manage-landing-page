@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="primary-header">
       <div class="container">
@@ -31,25 +32,27 @@
     </header>
 
     <main>
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
-            <h1 class="fs-primary-heading fw-bold">
-              Bring everyone together to build better products.
-            </h1>
-            <p>
-              Manage makes it simple for software teams to plan day-to-day tasks
-              while keeping the larger team goals in view.
-            </p>
-            <button class="button">Get Started</button>
-          </div>
-          <div>
-            <img src="images/illustration-intro.svg" alt="" />
+            <div>
+              <h1 class="fs-primary-heading fw-bold">
+                Bring everyone together to build better products.
+              </h1>
+              <p>
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.
+              </p>
+              <button class="button">Get Started</button>
+            </div>
+            <div>
+              <img src="images/illustration-intro.svg" alt="" />
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -63,7 +66,7 @@
               </p>
             </div>
             <div>
-              <ul>
+              <ul class="numbered-items" role="list">
                 <li>
                   <h3 class="fs-600 fw-bold">Track company-wide progress</h3>
                   <p>
@@ -97,17 +100,19 @@
         </div>
       </section>
 
-      <section class="carousel">
-        <h2 class="fs-secondary-heading">What they've said</h2>
+      <section class="carousel | padding-block-700">
+        <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
         <!-- Carousel -->
         <button class="button">Get Started</button>
       </section>
 
-      <section class="cta | bg-primary-400 text-neutral-100">
+      <section class="cta | padding-block-700 bg-accent-400 text-neutral-100">
         <div class="container">
           <div class="even-columns">
             <div>
-              <p class="fs-secondary-heading fw-bold"></p>
+              <p class="fs-secondary-heading fw-bold">
+                Simplify how your team works today.
+              </p>
             </div>
             <div>
               <button class="button" data-type="inverted">Get Started</button>
@@ -117,7 +122,7 @@
       </section>
     </main>
 
-    <footer class="bg-neutral-900 text-neutral-100">
+    <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
       <div class="container">
         <div class="even-columns">
           <div>
@@ -153,6 +158,7 @@
         </div>
       </div>
     </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
